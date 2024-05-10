@@ -549,6 +549,7 @@ pre code {
 }
 
 .container {
+  top: 5rem;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1951,6 +1952,7 @@ textarea.form-control {
 .form-group {
   margin-top: 0.50rem;
   margin-bottom: 1rem;
+  z-index: 1;
 }
 
 .form-text {
@@ -3964,7 +3966,6 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -3988,7 +3989,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
 }
 
-.navbar-brand {
+.navbar-brand { 
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -5819,6 +5820,10 @@ button.close {
   margin-bottom: 30px;
 }
 
+#move-bt-5rem{
+  top: 5rem;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -7584,6 +7589,10 @@ button.bg-dark:focus {
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
+}
+
+.mb-6{
+  margin-bottom: 3.5rem;
 }
 
 .p-0 {
