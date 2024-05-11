@@ -9,7 +9,19 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
 
-  <title>Olá, mundo!</title>
+  <title>Ofertas</title>
+
+  <script>
+
+    function disclaimerTable() {
+      alert("Estes preços e descontos são completamente inventados. Vá para loja oficial e descubra os preços reais dos produtos.")
+    }
+
+    function disclaimerSearch() {
+      alert("Botão de pesquisa meramente ilustrativo")
+    }
+  </script>
+
 </head>
 
 <body>
@@ -42,7 +54,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+            onclick="disclaimerSearch()">Pesquisar</button>
         </form>
       </div>
     </nav>
@@ -64,58 +77,57 @@
           <tr>
             <th scope="col"></th>
             <th scope="col">1° Item</th>
-            <th scope="col">Preço</th>
             <th scope="col">2° Item</th>
             <th scope="col">Preço</th>
-            <th scope="col">De</th>
             <th scope="col">Por</th>
+            <th scope="col"></th>
           </tr>
         </thead class="table-group-divider">
         <tbody>
           <tr>
-            <th scope="row">Kit Disney</th>
-            <td><a href="items.html">Star Wars</a></td>
-            <td>R$545,90</td>
-            <td><a href="items.html">Marvel Comics</a></td>
-            <td>R$439,99</td>
-            <td>R$985,89</td>
-            <td class="text-success">R$788,712</td>
+            <th scope="row">Kit Star Wars</th>
+            <td><a href="items.html">Star Wars X-WING STARFIGHTER</a></td>
+            <td><a href="items.html">Star Wars R2 D2</a></td>
+            <td>R$1200,00</td>
+            <td class="text-success">R$960,00</td>
+            <td>
+              <button class="btn btn-success" onclick="disclaimerTable()"><a href="form.html"
+                  class="text-light">Comprar</a></button>
+            </td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>Roap</td>
+            <th scope="row">Kit Classic</th>
+            <td><a href="items.html">Lego Classic Peças e Luzes 441 peças</a></td>
+            <td><a href="items.html">YGGDRASIL LEGO</a></td>
+            <td>R$1500,00</td>
+            <td class="text-success">R$1200,00</td>
+            <td>
+              <button class="btn btn-success" onclick="disclaimerTable()"><a href="form.html"
+                  class="text-light">Comprar</a></button>
+            </td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>Roap</td>
+            <th scope="row">Kit Moda</th>
+            <td><a href="items.html">Maleta Sephora LEGO</a></td>
+            <td><a href="items.html">Camera digital 4k LEGO</a></td>
+            <td>R$950,00</td>
+            <td class="text-success">R$760,00</td>
+            <td>
+              <button class="btn btn-success" onclick="disclaimerTable()"><a href="form.html"
+                  class="text-light">Comprar</a></button>
+            </td>
           </tr>
           <tr>
-            <th scope="row">4</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>Roap</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>Roap</td>
+            <th scope="row">Kit Others</th>
+            <td><a href="items.html">LEGO Set Technic 42165 Mercedes-AMG F1 W14 E Performance Pull-Back 240 peças</a>
+            </td>
+            <td><a href="items.html">Harry Potter™ – Hogwarts™: Sala do Dumbledore</a></td>
+            <td>R$1150,00</td>
+            <td class="text-success">R$920,00</td>
+            <td>
+              <button class="btn btn-success" onclick="disclaimerTable()"><a href="form.html"
+                  class="text-light">Comprar</a></button>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +143,8 @@
           Nickolas Pedroso. Site feito somente para fins educativos.</p>
       </div>
       <a href="https://www.lego.com/en-us/aboutus/lego-group?locale=en-us"
-        class="mb-3 mb-md-0 text-body-secondary text-decoration-none text-danger px-4">Imagens de produtos de LEGO Group,
+        class="mb-3 mb-md-0 text-body-secondary text-decoration-none text-danger px-4">Imagens de produtos de LEGO
+        Group,
         clique aqui para ir para o site oficial</a>
     </footer>
   </div>

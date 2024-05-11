@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  
+
 <head>
   <!-- Meta tags Obrigatórias -->
   <meta charset="utf-8">
@@ -9,7 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
 
-  <title>Olá, mundo!</title>
+  <title>Itens</title>
+
+  <script>
+
+    function disclaimerSearch() {
+      alert("Botão de pesquisa meramente ilustrativo")
+    }
+
+  </script>
 </head>
 
 <body>
@@ -40,13 +48,14 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+            onclick="disclaimerSearch()">Pesquisar</button>
         </form>
       </div>
     </nav>
   </div>
 
-  <div class="container mt-4">
+  <div class="container my-4 mx-auto">
     <!-- Cards -->
     <div class="row">
       <div class="col-sm-6 col-lg-4">
